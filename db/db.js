@@ -1,5 +1,5 @@
 const mysql = require('mysql')
-const router = mysql.createPool({
+const pool = mysql.createPool({
     connectionLimit: 10,
     host: 'localhost',
     user: 'root',
@@ -7,4 +7,4 @@ const router = mysql.createPool({
     database: 'meusprojetos'
 })
 
-module.exports = router;
+module.exports = pool;

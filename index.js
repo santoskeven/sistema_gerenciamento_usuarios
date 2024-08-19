@@ -1,6 +1,5 @@
 const express = require("express")
 const exphbs = require('express-handlebars') 
-const pool = require('./db/db')
 const user = require('./router-user/user')
 const port = 3000;
 const app = express()

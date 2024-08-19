@@ -1,0 +1,22 @@
+<h1 class="center">lista de usuários do banco de dados</h1>
+
+<div class="container-users">   
+
+    {{#each users}}
+        <div class="single-user">
+            <h1>{{this.id}}</h1>
+            <p>{{this.nome}}</p>
+            <p>{{this.email}}</p>
+            <p>{{this.idade}}</p>
+            <p>{{this.mae}}</p>
+
+            <div class="options-user">
+                <a href="/user/edit-user/{{this.id}}" class="optItem">EDITAR</a>
+                <form action="/user/delete-user/{{this.id}}" method="POST"  class="optItem">
+                    <input type="submit" value="EXCLUIR">
+                </form>
+            </div>
+        </div>
+    {{/each}}
+
+</div>

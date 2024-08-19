@@ -1,0 +1,149 @@
+/* font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+.center{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nav-main ul{
+    display: flex;
+    justify-content: center;
+    padding: 40px 2%;
+}
+
+.nav-main ul li{
+  list-style-type: none;
+  padding: 0 16px;
+}
+
+.nav-main ul li a{
+   text-decoration: none;
+  }
+
+
+  .container-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5em;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 300; */
+    font-style: normal;
+}
+
+.container-form .single-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em
+    
+}
+
+.container-form .single-form input{
+   padding: 8px 10px;
+   font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.single-form label{
+    font-weight:500;
+    margin-bottom: 5px;
+}
+
+#submit > input{
+    /* text-align: left; */
+    /* max-width: 50%;
+    min-width: 60px; */
+    /* width: 160px; */
+    padding: 8px 0px;
+    background-color: #8F8F8F;
+}
+
+.flex-form{
+    background-color: #F5F5F5;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.flex-form h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/* STYLE PARA USERLISt */
+
+.container-users{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.single-user{
+  min-width: 320px;
+  max-width: 30%;
+  margin: 30px 10px;
+  padding: 10px 0;
+  background-color: #F5F5F5;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.single-user h1{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.single-user h1, p{
+  color: #3D3D3D;
+}
+
+.options-user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-user > a{
+  background-color: #8F8F8F;
+  margin: 0;
+  text-decoration: none;
+  width: 100px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.options-user input{
+  background-color: #625C5C;
+  border: 0;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 3px; 
+}
+
+.optItem{
+  margin: 0 6px;
+}
