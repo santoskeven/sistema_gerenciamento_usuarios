@@ -1,33 +1,30 @@
-<div>
+<div class="container-form">
 
-    <div>
-
-        <h1>EDITAR DADOS DO USUÁRIO</h1>
-
+     <div class="flex-form">
+         <h1>EDITAR DADOS DO USUÁRIO</h1>
         <form action="/user/update-user" method="POST">
-        
-            <input type="hidden" name="id" value='{{user.id}}'>
-           <div class="single-form">
-                <label for="nome">NOME</label>
-                <input type="text" name="nome" placeholder="Digite seu nome" value='{{user.nome}}'>
-           </div>
+    
+        <input type="hidden" name="id" value='{{user.id}}'>
+        <div class="single-form">
+            <label for="nome">NOME</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" value='{{user.nome}}'>
+        </div>
+        <div class="single-form">
+            <label for="email">EMAIL</label>
+            <input type="text" name="email" placeholder="Digite seu email" value='{{user.email}}'>
+        </div>
+        <div class="single-form">
+            <label for="idade">IDADE</label>
+            <input type="number" name="idade" placeholder="Digite sua idade" value='{{user.idade}}'>
+        </div>
             <div class="single-form">
-                <label for="email">EMAIL</label>
-                <input type="text" name="email" placeholder="Digite seu email" value='{{user.email}}'>
-           </div>
-            <div class="single-form">
-                <label for="idade">IDADE</label>
-                <input type="number" name="idade" placeholder="Digite sua idade" value='{{user.idade}}'>
-           </div>
-               <div class="single-form">
-                <label for="mae">MÃE</label>
-                <input type="text" name="mae" placeholder="Digite o nome da sua mãe" value='{{user.mae}}'>
-           </div>
-            <div class="single-form" id="submit">
-                <input type="submit" value="EDITAR">
-           </div>
-        </form>
-
-    </div>
+            <label for="mae">MÃE</label>
+            <input type="text" name="mae" placeholder="Digite o nome da sua mãe" value='{{user.mae}}'>
+        </div>
+        <div class="single-form" id="submit">
+            <input type="submit" value="EDITAR">
+        </div>
+    </form>
+     </div>
 
 </div>

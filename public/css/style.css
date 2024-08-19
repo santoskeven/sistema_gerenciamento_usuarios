@@ -28,6 +28,7 @@ font-style: normal; */
   .container-form{
     display: flex;
     justify-content: center;
+    /* flex-direction: column; */
     margin-bottom: .5em;
     font-family: "Poppins", sans-serif;
     /* font-weight: 300; */
